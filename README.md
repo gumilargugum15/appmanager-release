@@ -5,7 +5,8 @@ Server: `https://app-manager.kagoemdigital.my.id/api/v1`. Kode sumber: `gumilarg
 
 | Versi | Tanggal | APK | SHA-256 |
 |---|---|---|---|
-| **1.1.0 (build 2)** — terbaru | 2026-11-14 | [`releases/v1.1.0/kagoem-appmanager-1.1.0.apk`](releases/v1.1.0/kagoem-appmanager-1.1.0.apk) | `10fb3fec2b1d284f6da88e31d05d4aa563d95fee8fd06252a6f9fddb635fd550` |
+| **1.1.1 (build 3)** — terbaru | 2026-11-15 | [`releases/v1.1.1/kagoem-appmanager-1.1.1.apk`](releases/v1.1.1/kagoem-appmanager-1.1.1.apk) | `d7c4ff6f57146d7caeb19658e73392c73ec8cbb97f4d8fb74ab77f9a00104ffa` |
+| 1.1.0 (build 2) | 2026-11-14 | [`releases/v1.1.0/kagoem-appmanager-1.1.0.apk`](releases/v1.1.0/kagoem-appmanager-1.1.0.apk) | `10fb3fec2b1d284f6da88e31d05d4aa563d95fee8fd06252a6f9fddb635fd550` |
 | 1.0.0 (build 1) | 2026-11-14 | [`releases/v1.0.0/kagoem-appmanager-1.0.0.apk`](releases/v1.0.0/kagoem-appmanager-1.0.0.apk) | `27a8c547472f2b9830bebd1f76c12a218524441908ccd6957e77873608631ddb` |
 
 ## Instal
@@ -15,6 +16,11 @@ Server: `https://app-manager.kagoemdigital.my.id/api/v1`. Kode sumber: `gumilarg
 
 Catatan: APK ditandatangani **debug key** (distribusi internal/sideload, bukan Play Store). Rilis berikutnya yang
 memakai keystore rilis tidak bisa dipasang menimpa versi ini — uninstall dulu.
+
+## v1.1.1
+- **Ganti password** sendiri: Pengaturan → *Ganti password*. Wajib password saat ini; password baru minimal
+  10 karakter berisi huruf dan angka. Setelah diganti, sesi di perangkat lain otomatis dikeluarkan dan tercatat di audit.
+- Butuh server AppManager ≥ 2026-11-15. Update dari 1.1.0/1.0.0: pasang langsung (menimpa), data login tetap.
 
 ## v1.1.0
 - **Data Explorer: semua tabel** database aplikasi target (kecuali tabel token/session/job/cache yang diblokir);
